@@ -34,3 +34,21 @@ spec:
   type: service
   lifecycle: production
   owner: payment-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: confirmation
+  description: Confirmation Service
+  tags:
+    - java
+    - spring
+    - tanzu
+    - payments
+    - demo
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'carto.run/workload-name=confirmation'
+spec:
+  type: service
+  lifecycle: production
+  owner: payment-team
