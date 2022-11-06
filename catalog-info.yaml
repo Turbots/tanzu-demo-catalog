@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: account
+  description: Account Service
+  tags:
+    - java
+    - spring
+    - tanzu
+    - payments
+    - demo
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'carto.run/workload-name=account'
+spec:
+  type: service
+  lifecycle: production
+  owner: payment-team
