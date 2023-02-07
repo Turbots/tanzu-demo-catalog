@@ -15,7 +15,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: payment-team
+  owner: belgian-team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -33,7 +33,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: payment-team
+  owner: belgian-team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -51,4 +51,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: payment-team
+  owner: belgian-team
